@@ -1,0 +1,141 @@
+body{
+	margin: 0;
+	background-color: #ededed;
+	font-family: 'Work Sans', sans-serif;
+	color: #303030;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #cd6857;
+	font-size: 58px;
+	font-weight: 500;
+	margin-bottom: 0;
+	position: relative;
+	top: -10px;
+}
+
+h2{
+	font-size: 22px;
+	font-weight: 300;
+	margin-top: 0.5em;
+}
+
+nav{
+	text-align: right;
+	margin-top: 1em;
+}
+
+nav a{
+	color: #303030;
+	font-size: 17px;
+	text-decoration: none;
+	margin-right: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	cursor: pointer;
+	display: inline-block;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+.login{
+	border: 2px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+
+.login:hover{
+	color: #4188ca;
+	border-color: #4188ca;
+	text-decoration: none;
+}
+
+.wrap{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1000px;
+}
+
+.wrap img{
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+.hero{
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	border-left: 5px solid rgba(0,0,0,0.1);
+
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+.half{
+	width: 50%;
+	float: left;
+}
+
+.half.centered{
+	text-align: center;
+}
+
+section.orange{
+	overflow: hidden;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ee494f+0,d07d52+100 */
+background: #ee494f; /* Old browsers */
+background: -moz-linear-gradient(left,  #ee494f 0%, #d07d52 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ee494f), color-stop(100%,#d07d52)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ee494f 0%,#d07d52 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ee494f 0%,#d07d52 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ee494f 0%,#d07d52 100%); /* IE10+ */
+background: linear-gradient(to right,  #ee494f 0%,#d07d52 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee494f', endColorstr='#d07d52',GradientType=1 ); /* IE6-9 */
+}
+
+.orange .half p{
+	font-size: 19px;
+	color: white;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-weight: 300;
+}
+
+.pill-button{
+	font-size: 19px;
+	color: white;
+	font-weight: 300;
+	border: 2px solid rgba(255,255,255,0.5);
+	border-radius: 9999px;
+	display: inline-block;
+	padding: 1em;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	text-decoration: none;
+}
+
+.pill-button:hover{
+		border: 2px solid rgba(255,255,255,1);
+}
+
+@media all and (max-width: 699px){
+  .half{
+  	width: 100%;
+  }
+
+  .half p{
+  	text-align: center;
+  	margin: 20px;
+  }
+
+  .pill-button{
+  	margin-bottom: 40px;
+  	margin-top: 40px;
+  }
+}
