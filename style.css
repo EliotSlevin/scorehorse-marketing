@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	margin: 0;
 	background-color: #ededed;
@@ -21,6 +25,17 @@ h2{
 	margin-top: 0.5em;
 }
 
+section h2{
+	text-align: center;
+	font-weight: 500;
+	color: #cd6857;
+}
+
+h3{
+	font-weight: 500;
+	margin-top: 40px;
+}
+
 nav{
 	text-align: right;
 	margin-top: 1em;
@@ -41,6 +56,19 @@ nav a{
 
 nav a:hover{
 	text-decoration: underline;
+}
+
+p{
+	font-size: 19px;
+	font-weight: 300;
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background-color: rgba(0,0,0,0.1);
+	margin-bottom: 80px;
+	margin-top: 40px;
 }
 
 .login{
@@ -122,6 +150,73 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee494f', end
 
 .pill-button:hover{
 		border: 2px solid rgba(255,255,255,1);
+}
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row-flex{
+	display: flex;
+}
+
+.g-33{
+	width: 33.33%;
+	float: left;
+}
+
+.g-50{
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+
+.g-50.accent{
+	background-color: #cd6857;
+}
+
+.points .g-33{
+	padding: 20px;
+	text-align: center;
+}
+
+.ta-c{
+	text-align: center;
+}
+
+.white{
+	max-width: 1000px;
+	padding: 40px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+#manage{
+	padding-top: 130px;
+	width: 170px;
+	float: left;
+}
+
+#diagram{
+	width: 540px;
+    float: left;
+}
+
+#embed{
+	padding-top: 5px;
+}
+
+#public{
+	padding-top: 70px;
+}
+
+footer{
+	background-color: #333;
+	margin-top: 40px;
+	overflow: hidden;
 }
 
 @media all and (max-width: 699px){
