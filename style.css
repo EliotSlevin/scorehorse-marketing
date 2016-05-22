@@ -166,6 +166,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee494f', end
 	float: left;
 }
 
+
+.g-66{
+	width: 66.66%;
+	float: left;
+}
+
 .g-50{
 	width: 50%;
 	text-align: center;
@@ -183,6 +189,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee494f', end
 
 .ta-c{
 	text-align: center;
+}
+
+.ta-l{
+	text-align: left;
 }
 
 .white{
@@ -211,6 +221,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee494f', end
 
 #public{
 	padding-top: 70px;
+}
+
+
+.pricing-wrapper{
+	max-width: 350px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid rgba(0,0,0,0.1);
+	text-align: center;
 }
 
 footer{
